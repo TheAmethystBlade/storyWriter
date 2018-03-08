@@ -17,11 +17,7 @@ public class Constructor {
 
 	}
 
-	public static void main(String[] args) {
-		// TODO write configrable options section, write the choice selection feild, write the compiler/exporter
-			//Tag sorting and selection will be done by a subclass of the tag system - will search through the custom archive
-
-
+	public static void main(String[] args) 
 
 	}
 
