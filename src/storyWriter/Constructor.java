@@ -1,10 +1,23 @@
 package storyWriter;
-
+import storyWriter.Actor.actor;
+import storyWriter.StoryBlocks.setting;
 public class Constructor {
 
-	public static void main(String[] args) {
-		// TODO Write tag intake code, write the choice making system, write compiler of the story
-		// Important: The choice making system may require an additional class to search for the tags and assotiated elements. Probobly will be located under the Tag system file tree
+	setting genre = new setting();
+	actor mc = new actor();
+
+	public Constructor(actor empty_a,setting empty_s){
+
+		mc = empty_a;
+		genre = empty_s;
+
+	}
+
+	public static void initalSettings(){
+
+	}
+
+	public static void main(String[] args) 
 
 	}
 
